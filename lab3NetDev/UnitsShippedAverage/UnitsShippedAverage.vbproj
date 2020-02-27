@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6F8D97B-3365-4F55-B85B-4EC6AA6F94A5}</ProjectGuid>
+    <ProjectGuid>{4B347C12-2CD7-4D69-8137-B4FD389A7219}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>lab1NetDev.My.MyApplication</StartupObject>
     <RootNamespace>lab1NetDev</RootNamespace>
@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="unitsShippedAverage.vb">
+    <Compile Include="UnitsShippedAverage.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="unitsShippedAverage.Designer.vb">
-      <DependentUpon>unitsShippedAverage.vb</DependentUpon>
+    <Compile Include="UnitsShippedAverage.Designer.vb">
+      <DependentUpon>UnitsShippedAverage.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="unitsShippedAverage.resx">
-      <DependentUpon>unitsShippedAverage.vb</DependentUpon>
+    <EmbeddedResource Include="UnitsShippedAverage.resx">
+      <DependentUpon>UnitsShippedAverage.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
